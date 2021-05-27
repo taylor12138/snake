@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "module": "ES2015", //模块化标准
+    "target": "ES2015", //指定的ES版本
+    "strict": true, //TS的严格模式
+    "noEmitOnError": true //编译错误不打包
+  }
+}

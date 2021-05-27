@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div id="container">
+    <div id="screen">
+      <!-- 蛇 -->
+      <div id="snake">
+        <!-- 加了绝对定位后原本未移动时看不见两个div，因为都定位在同一个地点 -->
+        <div></div>
+        <div></div>
+      </div>
+      <!-- 食物 -->
+      <div id="food">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- 下方计分板 -->
+    <div class="text">
+      <span id="score"> SCORE：0</span>
+      <div class="control">
+        <button class="Up"></button>
+        <button class="Down"></button>
+        <button class="Left"></button>
+        <button class="Right"></button>
+      </div>
+      <span id="level"> LEVERL：1</span>
+    </div>
+  </div>
+  <div class="rule">
+    规则说明：<br>
+    两种使用方式：<br>
+    一、使用鼠标点击方向键，控制蛇的移动<br>
+    二、使用键盘上的方向键，控制蛇的移动<br>
+    每10分提升一个等级速度，争做最强蛇！
+  </div>
+</body>
+
+</html>
